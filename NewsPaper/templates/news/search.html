@@ -1,0 +1,27 @@
+{% extends 'default.html' %}
+{% block content %}
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <form method="GET">
+         {{ filter.form }}
+          <button type="submit" class="btn btn-primary">Найти</button>
+        </form>
+        {% for post in filter.qs %}
+        <div class="post-preview">
+          <a href="{% url 'post' post.pk %}">
+            <h2 class="post-title">
+             {{ post.post_author }}
+            </h2>
+              <hr>
+              <h3 class="post-title">{{ post.post_title }}</h3>
+            <h5 class="post-subtitle">
+              {{ post.post_text|truncatechars:50 }}
+            </h5>
+          </a>
+          <p class="post-meta">Posted
+            <a href="#">{{ post.created }}</a></p>
+          {% endfor %}
+        </div>
+{% endblock %}

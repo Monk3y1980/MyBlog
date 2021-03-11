@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-09 23:05+0100\n"
+"PO-Revision-Date: 2021-03-10 09:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: NewsPaper/settings.py:320
+msgid "Deutsch"
+msgstr ""
+
+#: NewsPaper/settings.py:321
+msgid "Русский"
+msgstr ""
+
+#: NewsPaper/settings.py:322
+msgid "English"
+msgstr ""
+
+#: news/models.py:34
+msgid "category name"
+msgstr ""
+
+#: templates/default.html:58
+msgid "Главная"
+msgstr "Главная"
+
+#: templates/default.html:61
+msgid "Поиск"
+msgstr "Поиск"
+
+#: templates/default.html:64
+msgid "Добавить статью"
+msgstr "Добавить статью"
+
+#: templates/default.html:67
+msgid "Оформить подписку"
+msgstr "Оформить подписку"
+
+#: templates/default.html:70
+msgid "sign in"
+msgstr "вход"
+
+#: templates/default.html:73
+msgid "sign up"
+msgstr "регистрация"
+
+#: templates/default.html:76
+msgid "Выйти"
+msgstr "Выйти"
+
+#: templates/default.html:91
+msgid "A Blog Theme by Start Bootstrap"
+msgstr "Тема блога от Start Bootstrap"
+
+#: templates/news/news.html:12
+msgid ""
+"Never in all their history have men been able truly to conceive of the world "
+"as one: a single sphere, a globe, having the qualities of a globe, a round "
+"earth in which all the directions eventually meet, in which there is no "
+"center because every point, or none, is center — an equal earth which all "
+"men occupy as equals. The airman's earth, if free men make it, will be truly "
+"round: a globe in practice, not in theory"
+msgstr ""
+"Никогда за всю свою историю люди не могли по-настоящему представить мир как "
+"единое целое: единую сферу, глобус, обладающий качествами шара, круглую "
+"землю, на которой в конечном итоге встречаются все направления, в которой "
+"нет центра, потому что каждая точка или ни одна из них является центром - "
+"равной землей, которую все люди занимают как равные. Земля для летчиков, "
+"если ее сделают свободные люди, будет действительно круглой: земной шар на "
+"практике, а не в теории"
+
+#: templates/news/news.html:13
+msgid ""
+"Science cuts two ways, of course; its products can be used for both good and "
+"evil. But there's no turning back from science. The early warnings about "
+"technological dangers also come from science"
+msgstr ""
+"Конечно, наука идет двумя путями; его изделия можно использовать как во "
+"благо, так и во зло. Но от науки пути назад нет. Ранние предупреждения о "
+"технологических опасностях также исходят от науки"
+
+#: templates/news/news.html:14
+msgid ""
+"What was most significant about the lunar voyage was not that man set foot "
+"on the Moon but that they set eye on the earth"
+msgstr ""
+"Самым важным в лунном путешествии было не то, что человек ступил на Луну, а "
+"то, что они увидели Землю"
+
+#: templates/news/news.html:15
+msgid ""
+"A Chinese tale tells of some men sent to harm a young girl who, upon seeing "
+"her beauty, become her protectors rather than her violators. That's how I "
+"felt seeing the Earth for the first time. I could not help but love and "
+"cherish her"
+msgstr ""
+"Китайская сказка рассказывает о мужчинах, посланных причинить вред молодой "
+"девушке, которые, увидев ее красоту, стали ее защитниками, а не "
+"насильниками. Вот как я почувствовал себя, впервые увидев Землю. Я не мог не "
+"любить и лелеять ее"
+
+#: templates/news/news.html:16
+msgid ""
+"For those who have seen the Earth from space, and for the hundreds and "
+"perhaps thousands more who will, the experience most certainly changes your "
+"perspective. The things that we share in our world are far more valuable "
+"than those which divide us"
+msgstr ""
+"Для тех, кто видел Землю из космоса, и для сотен и, возможно, тысяч других, "
+"кто увидит, этот опыт наверняка изменит вашу точку зрения. Вещи, которыми мы "
+"делимся в нашем мире, гораздо более ценны, чем то, что нас разделяет"
+
+#: templates/news/news.html:17
+msgid "The Final Frontier"
+msgstr "Последний рубеж"
+
+#: templates/news/news.html:18
+msgid ""
+"There can be no thought of finishing for ‘aiming for the stars.’ Both "
+"figuratively and literally, it is a task to occupy the generations. And no "
+"matter how much progress one makes, there is always the thrill of just "
+"beginning"
+msgstr ""
+"Не может быть и речи о завершении «стремления к звездам». И в прямом, и в "
+"переносном смысле это задача, занимающая поколения. И независимо от того, "
+"насколько продвинулся человек, всегда есть азарт, только начинающий"
+
+#: templates/news/news.html:19
+msgid ""
+"The dreams of yesterday are the hopes of today and the reality of tomorrow. "
+"Science has not yet mastered prophecy. We predict too much for the next year "
+"and yet far too little for the next ten"
+msgstr ""
+"Вчерашние мечты - это надежды сегодняшнего дня и реальность завтрашнего дня. "
+"Наука еще не освоила пророчество. Мы прогнозируем слишком много на следующий "
+"год и слишком мало на следующие десять"
+
+#: templates/news/news.html:20
+msgid ""
+"Spaceflights cannot be stopped. This is not the work of any one man or even "
+"a group of men. It is a historical process which mankind is carrying out in "
+"accordance with the natural laws of human development"
+msgstr ""
+"Космические полеты нельзя остановить. Это работа не одного человека или даже "
+"группы людей. Это исторический процесс, который человечество осуществляет в "
+"соответствии с естественными законами человеческого развития"
+
+#: templates/news/news.html:21
+msgid "Reaching for the Stars"
+msgstr "Достижение звезд"
+
+#: templates/news/news.html:22
+msgid ""
+"As we got further and further away, it [the Earth] diminished in size. "
+"Finally it shrank to the size of a marble, the most beautiful you can "
+"imagine. That beautiful, warm, living object looked so fragile, so delicate, "
+"that if you touched it with a finger it would crumble and fall apart. Seeing "
+"this has to change a man"
+msgstr ""
+"По мере того, как мы удалялись все дальше и дальше, она [Земля] уменьшалась "
+"в размерах. В конце концов, он уменьшился до размера мрамора, самого "
+"красивого, что вы можете себе представить. Этот красивый, теплый, живой "
+"предмет выглядел таким хрупким, таким хрупким, что если прикоснуться к нему "
+"пальцем, он рассыпался и развалился. Увидеть это должно изменить человека"
+
+#: templates/news/news.html:27
+msgid ""
+"To go places and do things that have never been done before – that’s what "
+"living is all about"
+msgstr ""
+"Ходить по местам и делать то, чего никогда раньше не делали - вот в чем "
+"смысл жизни"
+
+#: templates/news/news.html:28
+msgid ""
+"Space, the final frontier. These are the voyages of the Starship Enterprise. "
+"Its five-year mission: to explore strange new worlds, to seek out new life "
+"and new civilizations, to boldly go where no man has gone before"
+msgstr ""
+"Космос, последний рубеж. Это путешествия космического корабля \"Энтерпрайз"
+"\". Его пятилетняя миссия: исследовать новые странные миры, искать новую "
+"жизнь и новые цивилизации, смело идти туда, где еще не бывал ни один человек"
+
+#: templates/news/news.html:29
+msgid ""
+"As I stand out here in the wonders of the unknown at Hadley, I sort of "
+"realize there’s a fundamental truth to our nature, Man must explore, and "
+"this is exploration at its greatest"
+msgstr ""
+"Стоя здесь среди чудес неизвестного в Хэдли, я как бы понимаю, что в нашей "
+"природе есть фундаментальная истина, которую должен исследовать человек, и "
+"это исследование в его величайшей"
+
+#: templates/news/news.html:30
+msgid "Placeholder text by"
+msgstr "Текст-заполнитель, автор"

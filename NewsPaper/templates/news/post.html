@@ -1,0 +1,28 @@
+{% extends 'default.html' %}
+{% block content %}
+    {% load cache %}
+        {% cache 30 post %}
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+            <h2 class="post-title">
+             {{ post.post_title }}
+            </h2>
+            <p class="post-subtitle">
+              {{ post.post_text }}
+            </p>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">{{ post.post_author }} | {{ post.created }}</a>
+          </p>
+        </div>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-info float-left" role="button" href="{% url 'post_update' post.id %}">Редактировать</a>
+          <a class="btn btn-info float-right" href="{% url 'post_delete' post.id %}">Удалить</a>
+        </div>
+      </div>
+    </div>
+    {% endcache %}
+{% endblock %}

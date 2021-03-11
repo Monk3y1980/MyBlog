@@ -1,0 +1,1 @@
+[{"model": "news.category", "pk": 1, "fields": {"title": "IT", "subscribers": [2, 3, 28]}}, {"model": "news.category", "pk": 2, "fields": {"title": 

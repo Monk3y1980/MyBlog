@@ -1,0 +1,20 @@
+{% extends 'default.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <h1>Регистрация</h1>
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-group">
+            {{ form }}
+            </div>
+            <button type="submit" class="btn btn-primary float-left">Продолжить</button>
+            <a href="{% url 'news' %}" class="btn btn-primary float-right">Назад</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+
+
